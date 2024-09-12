@@ -8,8 +8,9 @@
     align-items: center;
     background-color:rgb(30, 30, 96);
     padding:10px 200px;
+    border-bottom: 2px solid darkcyan;
 }
-.text-info >h2{
+.text-info > h2{
     color:white;
     font-weight: bold;
     font-size: 30px;
@@ -33,4 +34,37 @@ ul>li>a:hover{
     background-color:rgb(21, 21, 43) ;
     color:red;
     border-radius: 5px;
+}
+
+/* hero area start */
+.hero-area{
+    background-image: url("/image/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-origin: border-box;
+    padding: 300px 0;
+   
+}
+.hero-section{
+    display: flex;
+    justify-content: center;
+
+}
+.hero-section>.input-area >input{
+     width: 500px;
+     height: 30px;
+     border-radius: 5px;
+     padding: 10px;
+     border: none;
+     font-size: 15px;
+}
+.hero-section>.icon-tag{
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    background-color: green;
+    border-radius: 5px;
+    margin-left: -5px;
+    cursor: pointer;
 }
