@@ -164,3 +164,46 @@ main{
     background-color: green;
     
 }
+
+/* footer section started */
+footer{
+    background-color: rgb(109, 12, 109);
+    color:white;
+}
+#footer-parent{
+   width: 900px; 
+   margin: auto; 
+}
+.footer-child{
+    display: flex;
+   justify-content: space-around;
+   padding: 40px 0;
+   align-items: center;
+   gap:0 30px;
+}
+.footer-single{
+    width: 300px;
+}
+.footer-single > h3{
+margin-bottom: 15px;
+font-size: 25px;
+}
+.footer-single > p:nth-child(2){
+    margin: 25px 0;
+}
+.footer-single >p{
+    margin: 20px 0;
+}
+.footer-single>a{
+    font-size: 20px;
+    margin: 0 5px;
+    text-decoration: none;
+    color:white;
+    background-color:rgb(48, 149, 149);
+    padding:4px 8px;
+    border-radius: 20%;
+}
+.footer-single>h5{
+    margin: 35px 0;
+    font-size: 15px;
+}
