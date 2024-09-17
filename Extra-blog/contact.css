@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* navigation bar started */
+.header-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(30, 30, 96);
+    padding:10px 200px;
+    border-bottom: 2px solid darkcyan;
+}
+.text-info > h2{
+    color:white;
+    font-weight: bold;
+    font-size: 30px;
+}
+ul{
+    display: flex;
+}
+ul>li{
+    list-style: none;
+    padding:6px 10px;
+}
+ul >li>a{
+    font-weight: 900;
+    color:white;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+ul>li>a:hover{
+    background-color:rgb(21, 21, 43) ;
+    color:red;
+    border-radius: 5px;
+}
+
+/* form tag started */
+form{
+    width: 800px;
+    margin: 100px auto;
+    background-color: lightcoral;
+    padding: 50px 0;
+    box-shadow: 10px 10px 10px 10px grey;
+    border-radius: 20px;
+    
+}
+form h2{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+form h2 u{
+    color:red;
+}
+.input-email-parent input{
+    display: block;
+    margin:20px auto;
+    width: 500px;
+    height: 25px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: none; 
+}
+form textarea{
+    display: block;
+    width: 500px;
+    margin:30px auto;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.input-btn{
+   display: block;
+   margin: auto;
+   font-size: 25px;
+   padding: 10px 20px;
+   width: 450px;
+   height: 50px;
+   border-radius: 30px;
+   border: none;
+   background: linear-gradient(to right,blue,rgb(47, 110, 131),aqua);
+   color:white;
+   cursor: pointer;
+   
+}
